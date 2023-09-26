@@ -1,12 +1,5 @@
 import { Square } from './Square.js';
-import {
-  isReady,
-  shutdown,
-  Field,
-  Mina,
-  PrivateKey,
-  AccountUpdate,
-} from 'o1js';
+import { Field, Mina, PrivateKey, AccountUpdate } from 'o1js';
 
 const useProof = false;
 const Local = Mina.LocalBlockchain({ proofsEnabled: useProof });
